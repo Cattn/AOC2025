@@ -6,10 +6,8 @@ function solve() {
     const max = 12;
     for (const bank of banks) {
         const length = bank.length;
-        const arr = [];
         const realArr = [];
         for (var i = 0; i < length; i++) {
-            arr.push(parseInt(bank[i]));
             realArr.push(parseInt(bank[i]));
         }
         const chosen = [];
